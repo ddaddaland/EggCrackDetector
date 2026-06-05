@@ -1,0 +1,48 @@
+name: fire_egg_detector_gui
+resolution: workspace
+
+environment:
+  sdk: ^3.9.2
+
+
+
+dependencies:
+  # workspace
+  fire_egg_common: any
+  fire_egg_widgets: any
+  fire_egg_detector: any
+  # flutter
+  flutter:
+    sdk: flutter
+  # packages
+  http: ^1.6.0
+  onnxruntime: ^1.4.1
+  image: ^4.8.0           # 이미지 전처리
+  file_picker: ^11.0.0    # PC에서 파일 선택용
+  path_provider: ^2.1.2  # 추가
+  path: ^1.9.0           # 추가
+  flutter_libserialport: any
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/model/v1003.onnx
+    - asset/model/1100.onnx
+    - asset/model/1101.onnx
+    - asset/model/1102.onnx
+    - asset/model/v1003_o11_fp32.onnx
+    - asset/model/v1003_o11_fp16.onnx
+    - asset/model/v1004_o11_fp32.onnx
+    - asset/cam_sample/1280_00.jpg
+    - asset/cam_sample/1280_01.jpg
+    - asset/cam_sample/1280_02.jpg
+    - asset/cam_sample/1280_03.jpg
+    - asset/cam_sample/1280_04.jpg
+    - asset/cam_sample/1280_05.jpg
+    - asset/cam_sample/1280_06.jpg
+    - asset/cam_sample/1280_07.jpg
+    - asset/cam_sample/1280_08.jpg
+    - asset/cam_sample/1280_09.jpg
+    - asset/cam_sample/1280_10.jpg
+    - asset/cam_sample/1280_11.jpg

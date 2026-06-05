@@ -1,0 +1,22 @@
+name: fire_egg_dashboard
+resolution: workspace
+
+environment:
+  sdk: ^3.9.2
+
+
+
+dependencies:
+  # workspace
+  fire_egg_common: any
+  fire_egg_widgets: any
+  # flutter
+  flutter:
+    sdk: flutter
+  # packages
+  http: ^1.6.0
+
+
+flutter:
+  uses-material-design: true
+  assets:

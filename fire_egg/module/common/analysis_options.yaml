@@ -1,0 +1,4 @@
+
+formatter:
+  page_width: 140
+  trailing_commas: preserve

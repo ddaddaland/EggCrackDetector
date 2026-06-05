@@ -1,0 +1,16 @@
+name: fire_egg_detector
+resolution: workspace
+
+environment:
+  sdk: ^3.9.2
+
+
+dependencies:
+  # workspace
+  fire_egg_common: any
+  # packages
+  meta: ^1.16.0
+  http: ^1.6.0
+  onnxruntime: ^1.4.0
+  path_provider: ^2.1.2  # 추가
+  path: ^1.9.0           # 추가

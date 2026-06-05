@@ -1,0 +1,12 @@
+name: fire_egg
+
+environment:
+  sdk: ^3.9.2
+
+workspace:
+  - module/common
+  - module/widgets
+  - module/server
+  - module/detector
+  - module/detector_gui
+  - module/dashboard

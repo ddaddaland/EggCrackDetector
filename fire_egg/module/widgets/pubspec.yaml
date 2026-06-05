@@ -1,0 +1,36 @@
+name: fire_egg_widgets
+resolution: workspace
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  # workspace
+  fire_egg_common: any
+  # flutter
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: asset/font/Pretendard-Regular.ttf
+          weight: 400
+        - asset: asset/font/Pretendard-Medium.ttf
+          weight: 500
+        - asset: asset/font/Pretendard-SemiBold.ttf
+          weight: 600
+        - asset: asset/font/Pretendard-Bold.ttf
+          weight: 700
+    - family: JetBrainsMono
+      fonts:
+        - asset: asset/font/JetBrainsMonoNL-Light.ttf
+          weight: 300
+        - asset: asset/font/JetBrainsMonoNL-Regular.ttf
+          weight: 400
+        - asset: asset/font/JetBrainsMonoNL-Bold.ttf
+          weight: 700
+        - asset: asset/font/JetBrainsMonoNL-ExtraBold.ttf
+          weight: 800
