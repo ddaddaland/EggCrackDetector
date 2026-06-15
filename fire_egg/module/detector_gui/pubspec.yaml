@@ -27,6 +27,7 @@ dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - asset/model/v1103.onnx
     - asset/model/v1003.onnx
     - asset/model/1100.onnx
     - asset/model/1101.onnx

@@ -193,6 +193,17 @@ class _HomeScreenState extends State<FireEggDetectorGuiHome> {
     // 1100
     OnnxYoloModel(
       imageSize: imageSize,
+      name: 'EGG Single v1103',
+      parentModel: 'YOLO v26m ',
+      classes: [
+        YoloObjectClass(label: 'egg', color: 0xFFFFFFFF),
+        YoloObjectClass(label: 'crack', color: 0xFFFF5252),
+      ],
+      description: 'local onnx model',
+      modelLoader: () => rootBundle.load('asset/model/v1103.onnx').then((bd) => bd.buffer.asUint8List()),
+    ),
+    OnnxYoloModel(
+      imageSize: imageSize,
       name: 'EGG Single 1102',
       parentModel: 'YOLO v26m ',
       classes: [

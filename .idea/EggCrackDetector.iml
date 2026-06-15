@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/common/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/common/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/common/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/dashboard/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/dashboard/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/dashboard/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/detector/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/detector/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/detector/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/detector_gui/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/detector_gui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/detector_gui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/server/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/server/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/server/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/widgets/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/widgets/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fire_egg/module/widgets/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
